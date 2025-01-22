@@ -80,3 +80,62 @@ pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110247.png)
 ![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110404.png)
 ![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110428.png)
+
+# Level 7 Of Bandit (Acquiring Password for level 8)
+
+level 7
+username: bandit7
+pass: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+![Level 7 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/f5c78565025c501c9d55afc96d86a72134eeb166/Screenshot%202024-12-15%20084816.png)
+
+# Level 8 Of Bandit (Acquiring Password for level 9)
+
+level 8
+username: bandit8
+pass: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+![Level 8 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/a1c84bbecdeeb7200db9c87815bf45707c4ecfa8/Screenshot%202024-12-15%20222234.png)
+
+# Level 9 Of Bandit (Acquiring Password for level 10)
+
+level 9
+username: bandit9
+password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+### I have shown 2 ways here:
+
+### 1st Way:
+
+![Level 9 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d6c51fe6fb16f9ce5bea6f5e55dace54de5e5ee1/Screenshot%202024-12-15%20222351.png)
+![Level 9 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d6c51fe6fb16f9ce5bea6f5e55dace54de5e5ee1/Screenshot%202024-12-15%20222411.png)
+![Level 9 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d6c51fe6fb16f9ce5bea6f5e55dace54de5e5ee1/Screenshot%202024-12-15%20222444.png)
+![Level 9 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d6c51fe6fb16f9ce5bea6f5e55dace54de5e5ee1/Screenshot%202024-12-15%20222456.png)
+
+### 2nd Way:
+
+![Level 9 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d6c51fe6fb16f9ce5bea6f5e55dace54de5e5ee1/Screenshot%202024-12-15%20222512.png)
+
+# Level 10 Of Bandit (Acquiring Password for level 11)
+
+level 10
+username: bandit10
+pass: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+![Level 10 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/4b9254e56f055d4f8d4e05c031a1e6bb6d822090/Screenshot%202024-12-15%20222745.png)
+
+# Level 11 Of Bandit (Acquiring Password for level 12)
+
+level 11
+username: bandit11
+pass: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+![Level 11 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/c64f459d5f0072b916237d16980fb7b037aabafe/Screenshot%202024-12-15%20222820.png)
+
+# Level 12 Of Bandit (Acquiring Password for level 13)
+
+level 12
+username: bandit12
+pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+![Level 12 pics]()
