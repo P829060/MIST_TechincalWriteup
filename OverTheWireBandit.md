@@ -29,4 +29,24 @@ hyphen as the start letter of the filename.
 ![level 1 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/4a707a78f20fbc862c4f3fe7ec4d276f29b59fea/Screenshot%202024-12-13%20120816.png)
 ![level 1 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/4a707a78f20fbc862c4f3fe7ec4d276f29b59fea/Screenshot%202024-12-13%20120856.png)
 
+# Level 2 Of Bandit (Acquiring Password for level 3)
+
+level 2
+username: bandit2
+pass: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+This is again the **cat** command. This time it's spaces in the filename, so just use two double quotation marks after the cat command and then mention the file name with spaces within the the double quotation marks. Again nothing much 
+special here.
+
+![Level 2 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/19779c5d9e0891e88a60e9a6a35239237d5fe9ad/Screenshot%202024-12-13%20122805.png)
+
+# Level 3 Of Bandit (Acquiring Password for level 4)
+
+level 3
+username: bandit3
+pass: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+Here we had to go to a particular directory and find a file. But yes the fun part was, if you use **ls** command to list the files, it doesn't list anything in the directory. You can use **find** command which allows you to search for files and directories based on various criteria such as name, size, type, and modification date. When i used the command without , it showed me the directory name and the files listed in it, from there I found the file which was hiding in the directory. I didn't mention any specifics, just used the find command and the directory name as argument. Yeah i had problem with reading the file after getting to know it, but then i figured it out.
+
+![Level 2 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d4bb098cbd1d5763507c4247eabe0b2287da5c56/Screenshot%202024-12-13%20124030.png)
 
