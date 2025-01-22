@@ -48,5 +48,26 @@ pass: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 Here we had to go to a particular directory and find a file. But yes the fun part was, if you use **ls** command to list the files, it doesn't list anything in the directory. You can use **find** command which allows you to search for files and directories based on various criteria such as name, size, type, and modification date. When i used the command without , it showed me the directory name and the files listed in it, from there I found the file which was hiding in the directory. I didn't mention any specifics, just used the find command and the directory name as argument. Yeah i had problem with reading the file after getting to know it, but then i figured it out.
 
-![Level 2 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d4bb098cbd1d5763507c4247eabe0b2287da5c56/Screenshot%202024-12-13%20124030.png)
+![Level 3 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/d4bb098cbd1d5763507c4247eabe0b2287da5c56/Screenshot%202024-12-13%20124030.png)
+
+# Level 4 Of Bandit (Acquiring Password for level 5)
+
+level 4
+username: bandit4
+pass: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+A VERY PAINFUL process of reading every file to see which is human-readable. Maybe there is a command to know if a file is human-readable or not, but yeah i went with reading every file through **cat** command. As you can see -file07 is an ascii text file when i read its contents and it is much more similar to passwords for the levels than the others. You can also use **find -readable** which is much easier but then my first line of thought was as below. So i went with it.
+
+![Level 4 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/348c76215d301c4c4a0663a07824c038d53b076b/Screenshot%202024-12-13%20130013.png)
+
+# Level 5 Of Bandit (Acquiring Password for level 6)
+
+level 5
+username: bandit5
+pass: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+I can't **cat** through all those directories and their files, so i had to find an alternative way to get it. I did think of using **du** command to see disk usage but then i read that, by 9.6M they mean megibytes or something and not megabytes. So i wasted time thinking its megabytes and saw every file size but couldn't find a file with 1033 bytes. Later i realized it's wrong. So then i used the **find -readable 1033c ! -executable** where c means bytes and ! is basically "not", so a not executable file. So yeah did that, got the file with the password.
+
+![Level 5 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/f2ea7b7379d69299e964f0e8a354bb5a58ddd997/Screenshot%202024-12-14%20105806.png)
+
 
