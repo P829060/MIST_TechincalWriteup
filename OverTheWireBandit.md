@@ -77,4 +77,6 @@ username: bandit6
 pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 
-![Level 6 pics]()
+![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110247.png)
+![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110404.png)
+![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110428.png)
