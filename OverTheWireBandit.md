@@ -139,3 +139,9 @@ username: bandit12
 pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
 ![Level 12 pics]()
+
+didn't continue after this: 
+
+level 13
+username; bandit13
+pass: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
