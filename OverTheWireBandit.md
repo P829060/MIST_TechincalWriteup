@@ -66,8 +66,15 @@ level 5
 username: bandit5
 pass: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
-I can't **cat** through all those directories and their files, so i had to find an alternative way to get it. I did think of using **du** command to see disk usage but then i read that, by 9.6M they mean megibytes or something and not megabytes. So i wasted time thinking its megabytes and saw every file size but couldn't find a file with 1033 bytes. Later i realized it's wrong. So then i used the **find -readable 1033c ! -executable** where c means bytes and ! is basically "not", so a not executable file. So yeah did that, got the file with the password.
+I can't **cat** through all those directories and their files, so i had to find an alternative way to get it. I did think of using **du** command to see disk usage but then i read that, by 9.6M they mean megibytes or something and not megabytes. So i wasted time thinking its megabytes and saw every file size but couldn't find a file with 1033 bytes. Later i realized it's wrong. So then i used the **find -readable 1033c ! -executable** where c means bytes and ! is basically "not", so a not executable file. So yeah did that, got the file with the password.(Yeah because of hurry, i did cd instead of cat 2 times before realizing it).
 
 ![Level 5 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/f2ea7b7379d69299e964f0e8a354bb5a58ddd997/Screenshot%202024-12-14%20105806.png)
 
+# Level 6 Of Bandit (Acquiring Password for level 7)
 
+level 6
+username: bandit6
+pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
+![Level 6 pics]()
