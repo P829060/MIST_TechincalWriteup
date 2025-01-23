@@ -76,6 +76,7 @@ level 6
 username: bandit6
 pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
+Here we again use the find command but we also search for specific things, like the user who owns it, which group owns it and its size. Giving **find / -user bandit7 -group bandit6 -size33c** searches file which meets the requirements as well as specifies if the file can be accessed by us or not. As some files require you to be the root user or atleast a part of the group where users of that group have been given access to read files by the root user. Well there is only file that we can read, and i have highlighted it, so that you neednot search where it is. So use the **cat** command with the filename and read the file for the password of the next level.
 
 ![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110247.png)
 ![Level 6 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/8c6f3a1f91fd033d1b2b1e7628ea0cf01fc7432e/Screenshot%202024-12-14%20110404.png)
@@ -87,6 +88,8 @@ level 7
 username: bandit7
 pass: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
+This level is easy if you know the **grep** command. You can search for a specific word using this command. Some might not understand its significance for the first time, as who will actually write so many lines? But there is a chance like this challenge, where there is almost 1,000 lines of text in a file and you might take an eternity to solve it. So yeah i realised it's importance during this challenge. So yeah **grep (your word to search) (filename)** will print the entire line that contains the word you mentioned.
+
 ![Level 7 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/f5c78565025c501c9d55afc96d86a72134eeb166/Screenshot%202024-12-15%20084816.png)
 
 # Level 8 Of Bandit (Acquiring Password for level 9)
@@ -94,6 +97,8 @@ pass: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 level 8
 username: bandit8
 pass: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+
 
 ![Level 8 pics](https://github.com/P829060/LinuxLuminariumAndBandit/blob/a1c84bbecdeeb7200db9c87815bf45707c4ecfa8/Screenshot%202024-12-15%20222234.png)
 
