@@ -39,3 +39,12 @@
 ## Flag
   > picoCTF{b311a50_0r_v1gn3r3_c1ph3ra966878a}
 
+## 5) Waves Over Lambda
+  We made a lot of substitutions to encrypt this. Can you decrypt it? Connect with nc jupiter.challenges.picoctf.org 43522.
+## Solving 
+  This was a bit confusing at first about the flag format, later found it out that you are only supposed to put text inside the curly braces of the flag. First you put this in a cipher decoder to know what type of cipher it is like 
+  mentioned above for dcode website. Later you can use planetcalc website, to autocheck for the key [Click here for link](https://planetcalc.com/8047/) . This gives the decoded cipher and you get the flag mentioned specifically by the 
+  text.
+## Flag
+  > FREQUENCY_IS_C_OVER_LAMBDA_OGFMAUNRAF
+  Weird that the prompt says to write picoCTF{} but the hint suggests otherwise which is the way it accepts the flag as mentioned above
