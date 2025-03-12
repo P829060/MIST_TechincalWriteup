@@ -49,6 +49,8 @@
   > FREQUENCY_IS_C_OVER_LAMBDA_OGFMAUNRAF 
   ##### Weird that the prompt says to write picoCTF{} but the hint suggests otherwise which is the way it accepts the flag as mentioned above
 ## 6) Pixelated
+  I have these 2 images, can you make a flag out of them? [Click for link to challenge](https://play.picoctf.org/practice/challenge/100?category=2&page=3)
+## Solving
   Tried this through normal web-based tools. But, stacking these images always failed for some reason, even when taking either of the 2 as reference. So i had to get a python code, to merge these 2 images and then print the new png of 
   the 2 combined scrambled pngs. The code is as follows
   ```
@@ -68,3 +70,5 @@ for row in range(img1.size[1]):
                         (pixels1[col,row][2]+pixels2[col,row][2])%256)
 flag.save("flag.png")
 ```
+## Flag
+  > picoCTF{2a4d45c7}
