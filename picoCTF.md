@@ -46,5 +46,5 @@
   mentioned above for dcode website. Later you can use planetcalc website, to autocheck for the key [Click here for link](https://planetcalc.com/8047/) . This gives the decoded cipher and you get the flag mentioned specifically by the 
   text.
 ## Flag
-  > FREQUENCY_IS_C_OVER_LAMBDA_OGFMAUNRAF >
+  > FREQUENCY_IS_C_OVER_LAMBDA_OGFMAUNRAF \>
   Weird that the prompt says to write picoCTF{} but the hint suggests otherwise which is the way it accepts the flag as mentioned above
