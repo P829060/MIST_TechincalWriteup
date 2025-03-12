@@ -67,4 +67,4 @@ for row in range(img1.size[1]):
                         (pixels1[col,row][1]+pixels2[col,row][1])%256,
                         (pixels1[col,row][2]+pixels2[col,row][2])%256)
 flag.save("flag.png")
-'''
+```
