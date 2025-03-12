@@ -47,4 +47,4 @@
   text.
 ## Flag
   > FREQUENCY_IS_C_OVER_LAMBDA_OGFMAUNRAF 
-  \> Weird that the prompt says to write picoCTF{} but the hint suggests otherwise which is the way it accepts the flag as mentioned above
+  ##### Weird that the prompt says to write picoCTF{} but the hint suggests otherwise which is the way it accepts the flag as mentioned above
