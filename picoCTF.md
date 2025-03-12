@@ -30,11 +30,12 @@
   > picoCTF{N6R4M_4N41Y515_15_73D10U5_702F03FC}
 
 ## 4) la cifra de
+  I found this cipher in an old book. Can you figure out what it says? Connect with nc jupiter.challenges.picoctf.org 58295
 ## Solving
   This required a seperate tool because the previous tool wasn't as great as this one at solving. I used boxentriq website [Click here for website](https://www.boxentriq.com/). First, you can use any tool on website for identifying which 
   type of cipher it is. You can use dcode website [Click here for the website](https://www.dcode.fr/cipher-identifier). After identifying which cipher, (in this case it was Vignere Cipher) use boxentriq website and autosolve the cipher 
   on the website. The autosolved website shows the **keys** it used. If you already found the proper flag format with autosolve, then that's your answer, However, if it could'nt find the proper key, check the keys used and try doing a 
   trial error method of what the key can be. I got a mix of the words **flag**, so i used it as key and turns out that it's the actualy correct key for the cipher. So that's the way you can solve this chall.
 ## Flag
-  > 
+  > picoCTF{b311a50_0r_v1gn3r3_c1ph3ra966878a}
 
