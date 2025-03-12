@@ -51,7 +51,7 @@
 ## 6) Pixelated
   Tried this through normal web-based tools. But, stacking these images always failed for some reason, even when taking either of the 2 as reference. So i had to get a python code, to merge these 2 images and then print the new png of 
   the 2 combined scrambled pngs. The code is as follows
-  '''from PIL import Image # pip install Pillow
+  ''' from PIL import Image # pip install Pillow
 img1 = Image.open("scrambled1.png")
 pixels1 = img1.load()
 img2 = Image.open("scrambled2.png")
