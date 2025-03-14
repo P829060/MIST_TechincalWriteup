@@ -1,6 +1,6 @@
 # picoCTF Challs
 
-# 1. Cryptography
+## 1. Cryptography
 
 ### 1) Susbtitution0 
   A message has come in but it seems to be all scrambled. Luckily it seems to have the key at the beginning. Can you crack this substitution cipher?
