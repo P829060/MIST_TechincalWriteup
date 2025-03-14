@@ -72,3 +72,19 @@ flag.save("flag.png")
 ```
 ### Flag
   > picoCTF{2a4d45c7}
+
+## 2. Web Exploitation
+### 1) Cookies
+  Who doesn't love cookies? Try to figure out the best one. [Click for website](http://mercury.picoctf.net:54219/)
+### Solving
+  On opening the website it suggests one of the cookies that you can enter. Once you enter it, it confirms that the cookie is correct, however not it's most favourite. Using this page, we can inspect, go to the Application tab and under 
+  cookies, change the value and reload the website. First, we can assume there to be 100 cookies with values starting from 0 to 100 and change accordingly. If its not a cookie, we can use binary search technique and reduce our range,     
+  that is, from 100 we now put the value as 50 and reload the website. Do this as many times as you reach a value where it is a cookie for the website. From this value onwards, check the upperlimit by entering a value slightly above it.
+  This way, you get the maximum amount of cookies the site has. After this, trial and error every cookie value till you get a message or the flag itself. In my case, after i did binary search, i reached 25, checked upper limit which was    28 something. Then gradualy searched downwards and at 18 as cookie value, it directly gave the flag. So yeah that's how you find it.
+### Flag
+  > picoCTF{3v3ry1_l0v3s_c00k135_96cdadfd}
+
+### 2) Logon
+### Solving
+### Flag
+  > picoCTF{th3_c0nsp1r4cy_l1v3s_0c98aacc}
