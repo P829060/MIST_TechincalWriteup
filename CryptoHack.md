@@ -3,8 +3,8 @@
 ## PRIMES PART 1
 
 ### 1) Factoring
-[Click here for the challenge](https://cryptohack.org/challenges/rsa/)
 Factorise the 150-bit number 510143758735509025530880200653196460532653147 into its two constituent primes. Give the smaller one as your answer.
+[Click here for the challenge](https://cryptohack.org/challenges/rsa/)
 
 ### Solving 
 I had to use a website tool [Click here for the website](https://factordb.com/index.php?query=). This generated 2 prime factors of the given number. From this, I selected the smallest among them and that was the required flag.
