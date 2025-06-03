@@ -28,12 +28,13 @@ This required basic RSA formulae implementation like:
 -   cipher = msg ^e % N
 -   N = p * q
 -   d = e ^(-1) mod [(p-1) * (q-1)]
--   msg = cipher ^ d % N '''
+-   msg = cipher ^ d % N 
   
 ![Inferius Prime](https://github.com/P829060/MIST_TechincalWriteup/blob/abcdbcfaf0cfab819f4c5819b0e0d29853f86f11/images/inferius%20whatever%20primes.png)
 
 Python Code As Follows:
-``` from Crypto.Util.number import long_to_bytes
+```
+from Crypto.Util.number import long_to_bytes
 n = 984994081290620368062168960884976209711107645166770780785733
 e = 65537
 ct = 948553474947320504624302879933619818331484350431616834086273
@@ -46,3 +47,36 @@ print(long_to_bytes(pt))
 
 ### Flag
 > crypto{N33d_b1g_pR1m35}
+
+### 3) Monoprime
+Why is everyone so obsessed with multiplying two primes for RSA. Why not just use one?
+[Click here for the challenge](https://cryptohack.org/challenges/rsa/)
+
+### Solving
+Again, same as aove formulae implementation:
+This required basic RSA formulae implementation like:
+
+-   a ^ b % c | pow(a,b,c) in python
+-   cipher = msg ^e % N
+-   N = p * q
+-   d = e ^(-1) mod [(p-1) * (q-1)]
+-   msg = cipher ^ d % N
+
+Python Code As Follows:
+```
+from Crypto.Util.number import long_to_bytes
+
+n =171731371218065444125482536302245915415603318380280392385291836472299752747934607246477508507827284075763910264995326010251268493630501989810855418416643352631102434317900028697993224868629935657273062472544675693365930943308086634291936846505861203914449338007760990051788980485462592823446469606824421932591                                                                  
+e = 65537
+ct = 161367550346730604451454756189028938964941280347662098798775466019463375610700074840105776873791605070092554650190486030367121011578171525759600774739890458414593857709994072516290998135846956596662071379067305011746842247628316996977338024343628757374524136260758515864509435302781735938531030576289086798942
+
+d = pow(e,-1,n-1)
+
+msg = pow(ct,d,n)
+
+long_to_bytes(msg)
+
+# Output: b'crypto{0n3_pr1m3_41n7_pr1m3_l0l}'
+```
+### Flag
+> crypto{0n3_pr1m3_41n7_pr1m3_l0l}
