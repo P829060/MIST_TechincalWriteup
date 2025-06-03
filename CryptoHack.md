@@ -33,7 +33,7 @@ This required basic RSA formulae implementation like:
 ![Inferius Prime](https://github.com/P829060/MIST_TechincalWriteup/blob/abcdbcfaf0cfab819f4c5819b0e0d29853f86f11/images/inferius%20whatever%20primes.png)
 
 Python Code As Follows:
-```ruby
+```python
 from Crypto.Util.number import long_to_bytes
 n = 984994081290620368062168960884976209711107645166770780785733
 e = 65537
@@ -63,7 +63,7 @@ This required basic RSA formulae implementation like:
 -   msg = cipher ^ d % N
 
 Python Code As Follows:
-```ruby
+```python
 from Crypto.Util.number import long_to_bytes
 
 n =171731371218065444125482536302245915415603318380280392385291836472299752747934607246477508507827284075763910264995326010251268493630501989810855418416643352631102434317900028697993224868629935657273062472544675693365930943308086634291936846505861203914449338007760990051788980485462592823446469606824421932591                                                                  
