@@ -23,7 +23,7 @@ Here is my super-strong RSA implementation, because it's 1600 bits strong it sho
 
 ### Solving
 This required basic RSA formulae implementation like:
-'''
+
 -   a ^ b % c | pow(a,b,c) in python
 -   cipher = msg ^e % N
 -   N = p * q
@@ -33,7 +33,7 @@ This required basic RSA formulae implementation like:
 ![Inferius Prime](https://github.com/P829060/MIST_TechincalWriteup/blob/abcdbcfaf0cfab819f4c5819b0e0d29853f86f11/images/inferius%20whatever%20primes.png)
 
 Python Code As Follows:
-''' from Crypto.Util.number import long_to_bytes
+``` from Crypto.Util.number import long_to_bytes
 n = 984994081290620368062168960884976209711107645166770780785733
 e = 65537
 ct = 948553474947320504624302879933619818331484350431616834086273
@@ -41,7 +41,8 @@ p = 848445505077945374527983649411
 q = 1160939713152385063689030212503
 d = pow(e,-1,(p-1)*(q-1))
 pt = pow(ct,d,n)
-print(long_to_bytes(pt)) '''
+print(long_to_bytes(pt))
+```
 
 ### Flag
 > crypto{N33d_b1g_pR1m35}
