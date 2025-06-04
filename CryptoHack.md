@@ -260,3 +260,10 @@ print(long_to_bytes(msg))
 I asked my friends to encrypt our secret flag before sending it to me, but instead of using my key, they've all used their own! Can you help?
 [Resources for Solving](https://www.di-mgt.com.au/rsa_factorize_n.html) <br>
 [Click here for the challenge](https://cryptohack.org/challenges/rsa/)
+
+### Solving
+
+### Flag
+>
+
+<br>
