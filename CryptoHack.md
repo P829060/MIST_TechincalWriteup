@@ -160,6 +160,9 @@ long_to_bytes(msg)
 <br><br>
 <!-- -----------------------------------------------Section Ends Here ------------------------------------------------------------------------------------------------------------------------ -->
 ## Public Exponent
+
+<br>
+
 <!-- -----------------------------------------------Chall Manyprime--------------------------------------------------------------------------------------------------------------- -->
 ### 1) Salty
 Smallest exponent should be fastest, right?
@@ -212,6 +215,8 @@ print(long_to_bytes(int(iroot(ct, 3)[0])))
 ### Flag 
 > crypto{N33d_m04R_p4dd1ng}
 
+<br>
+
 ### 3) Everything is Big
 We have a supercomputer at work, so I've made sure my encryption is secure by picking massive numbers!
 [Click here for the challenge](https://cryptohack.org/challenges/rsa/)
@@ -248,6 +253,8 @@ print(long_to_bytes(msg))
 
 ### Flag
 > crypto{s0m3th1ng5_c4n_b3_t00_b1g}
+
+<br>
 
 ### 4) Crossed Wires
 I asked my friends to encrypt our secret flag before sending it to me, but instead of using my key, they've all used their own! Can you help?
