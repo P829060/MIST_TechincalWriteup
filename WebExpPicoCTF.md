@@ -27,4 +27,7 @@ You Require Burp Suite Community Edition for this. You just intercept the reques
 ### Flag
 > picoCTF{#0TP_Bypvss_SuCc3$S_3e3ddc76}
 
+## 3) Don't use client side
+### Solving 
 
+### Flag
